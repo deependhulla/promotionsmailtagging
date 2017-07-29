@@ -8,3 +8,7 @@ Add the Lines of spamassassin/add_to_local.cf into /etc/mail/spamassassin/local.
 
 Basic content catch has been added in [promotionsmailtagging/promotions.ini](spamassassin/promotionsmailtagging/promotions.ini) file you can add more if you want.
 
+If you Mail system support Dovecot Sieve (Service side Filter) filter, you can use the sample given [dovecot_default.sieve](dovecot_default.sieve) to apply same.
+
+In your ThirdParty Email Client like MS Outlook you can add a filter "X-Spam-Promotions" "YES" than move to Promotional Folder.
+
